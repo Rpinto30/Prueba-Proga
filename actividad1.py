@@ -9,3 +9,5 @@ for i in range(int(a)):
     for j in range(int(a)):
         if j <=i: print(" * ", end="")
     print("\n")
+
+print("Fin")
