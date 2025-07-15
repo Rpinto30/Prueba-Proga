@@ -8,4 +8,9 @@ else: print("Tas we, chao")
 for i in range(int(a)):
     for j in range(int(a)):
         if j <=i: print(" * ", end="")
-    print("\n")
+    print(end="\n")
+for i in range(int(a)):
+    for j in range(int(a)):
+        if j%2 == 0 and j <= i: print(" * ", end="")
+        else: print("   ", end="")
+    print(end="\n")
